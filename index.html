@@ -222,6 +222,33 @@
         <!-- /.container -->
     </footer>
     <!-- /.footer -->
+    <form action="#" class="modal close">
+        <div class="modal__inner">
+            <div class="modal__inner-header">ФОРМА ЗАЯВКИ</div>
+            <div class="modal__inner-elements">
+                <div class="modal__item">
+                    <div class="modal__wrap-input">
+                        <input type="text" class="modal__input">
+                    </div>
+                    <div class="modal__wrap-input">
+                        <input type="email" class="modal__input">
+                    </div>
+                </div>
+                <div class="modal__item modal__item-long">
+                    <textarea class="modal__message" name="text" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="modal__policy">
+                    <input type="checkbox" id="modal__check">
+                    <label for="modal__check">
+                        <span>Я соглашаюсь с</span>
+                        <a href="#">Политикой безопасности</a>
+                    </label>
+                </div>
+                <button type="button" class="main-display__button modal__button">отправить</button>
+            </div>
+        </div>
+    </form>
+
     <script src="js/swiper-bundle.js"></script>
     <script src="js/main.js"></script>
 </body>
