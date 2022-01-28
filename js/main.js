@@ -10,6 +10,7 @@ const swiper = new Swiper('.swiper', {
 
 const modalWindow = document.querySelector('.modal');
 const buttonModal = document.querySelector('.main-display__button');
+const modalButton = document.querySelector('.modal__button')
 
 buttonModal.addEventListener('click', () => {
     modalWindow.classList.add('active');
@@ -22,4 +23,7 @@ modalWindow.addEventListener('click', (e) => {
     } 
 })
 
+modalButton.addEventListener('click', () => {
+    modalWindow.classList.remove('active');
+})
 
